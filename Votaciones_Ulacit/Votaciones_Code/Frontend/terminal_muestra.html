@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>STUDENT GOVERNMENT ELECTION</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
+    <link href="estilos2.css" rel="stylesheet">
+    <link href="css/sweetalert2.min.css"  rel="stylesheet">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/script_voto.js"></script>
+</head>
+<body>
+    <div class="topbar"> </div>
+    <h1 class="titulo">STUDENT GOVERNMENT ELECTION 2017</h1>
+    <img src="img/ulacit.png" alt="logo">
+    <!--------------------------------------------------------------------------------------->
+    <div class="cont">
+        <div class="row">
+            <table class="t1">
+                <tbody>
+                    <tr>
+                        <td>
+                          <label name="nombre" type="text" id="label_id_estudiante">  </label>
+                        </td>
+                        <td>
+                            <label name="nombre" type="text" id="label_nombre"> </label>
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<!--------------------------------------------------------------------------------------->
+    <!-- Hay que modificar el action-->
+    <div id="contenedor_papeletas">
+    <form action="#" method="post" id="papeleta0">
+        <div class="contenedor">
+            <div class="row">
+
+                <div >
+                    <label id=Nombre_Escuela>Escuela</label>
+                    <!--este label se tiene que cambiar por el nombre de la escuela-->
+                </div>
+
+                <!--Este div se multiplia dependiendo de cuantos partidos hayan-->
+                <div class="cuadro col-md-4" id="Partido01" >
+                    <label id="NombrePartido01"></label>
+                    <br/>
+                    <img src="imgs/nulo.png" width="200px" height="200px"id="img_partido01"/>
+                    <input type="radio" name="partido" id="btn_radio01"/>
+                </div>
+
+                <div class="cuadro col-md-4" id="Partido02">
+                    <label id="NombrePartido02"></label>
+                    <br/>
+                    <img src="imgs/nulo.png" width="200px" height="200px"id="img_partido02"/>
+                    <input type="radio" name="partido" id="btn_radio02"/>
+                </div>
+
+                <div class="cuadro col-md-4" id="Partido03">
+                    <label id="NombrePartido03"></label>
+                    <br/>
+                    <img src="imgs/nulo.png" width="200px" height="200px" id="img_partido03"/>
+                    <input type="radio" name="partido" id="btn_radio03"/>
+                </div>
+
+            </div>
+        </div>
+
+    </form>
+
+    <div>
+            <input type="button" value="Enviar" class="fiscal_boton" id="btn_votoFinal" />
+    </div>
+      </div>
+    <!--------------------------------------------------------------------------------------->
+    <div class="footer">
+        <a class="link-ulacit" href="http://www.ulacit.ac.cr">Universidad Latinoamericana de
+            Ciencia y Tecnología</a> <a href="/" class="link-titulo">Tech Club ULACIT 2017</a>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+
+</body>
+</html>
