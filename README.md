@@ -1,4 +1,5 @@
 # Votaciones_Ulacit
+Sistema de votaciones desarrollado por el Tech Club para las elecciones estudiantiles de la Universidad Latinoamericana de Ciencia y Tecnología 2017
 
 ## Instrucciones para ejecutar:
 
@@ -20,4 +21,4 @@ y asegurarse de que se crea el entorno virtual con python3
 
 8- Hacer cd a Votaciones_Ulacit/Votaciones_Code/Backend/ y ejecutar pip install requirements.txt
 
-9- Luego ejecutar python main.py para inciar el servidor, en un navegador poner localhost y se podrá accesar a la página inicial.
+9- Luego ejecutar python main.py para inciar el servidor, en un navegador poner localhost y se podrá acceseder a la página inicial.
